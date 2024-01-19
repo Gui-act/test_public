@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logallrefupdates = false
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = file:///opt/jboss/.kie-wb-playground/20c94b0aa5565aa18e6738801f390d98
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/*
+	fetch = +refs/notes/*:refs/notes/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
